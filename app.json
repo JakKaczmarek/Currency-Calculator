@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "demo_app",
+    "name": "Kalkulator Walut",
     "slug": "demo_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,20 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jakkaczmarek.demo_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "201fe53c-5f26-4fef-8440-b3fb0a7461c5"
+      }
     }
   }
 }
